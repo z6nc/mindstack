@@ -1,6 +1,8 @@
 import Link from "next/link"
 import { ItemNavbar } from "../ui/ItemNavbar/itemNavbar"
 import { ListaItemNavbar } from "@/data/itemNavbar"
+import { GithubIcon } from "lucide-react";
+
 export function Navbar() {
     return (
         <nav className="flex flex-col md:flex-row gap-5  items-center justify-between max-h-max p-9 ">
@@ -13,10 +15,20 @@ export function Navbar() {
             <div className="flex items-center space-x-8">
                 {ListaItemNavbar.map((item) => (
                     <ItemNavbar key={item.titulo} {...item} />
+
+
                 ))}
+                <a
+                    href="https://github.com/z6nc/mindstack"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className={`bg-black p-2 rounded-full `}
+                >
+                    <GithubIcon className="w-5 h-5 md:w-6 md:h-6 text-white"/>
+                </a>
             </div>
-            
-            
+
+
 
         </nav>
     )
