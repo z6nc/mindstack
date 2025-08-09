@@ -1,4 +1,4 @@
-import { HomeIcon ,GithubIcon , Code ,House} from "lucide-react";
+import { GithubIcon , Code ,House} from "lucide-react";
 interface PropsNavItem {
   titulo: string;
   url: string;
