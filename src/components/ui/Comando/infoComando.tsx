@@ -16,7 +16,7 @@ export function InformacionComando({ comando }: PropsTerminalComando) {
                     <Share className="size-4 " />
                 </a>
             </div>
-            <p className="text-sm text-black text-wrap w-2xl">{comando.descripcion}</p>
+            <p className="text-sm text-black text-wrap w-full md:w-2xl">{comando.descripcion}</p>
             <span className="text-sm text-gray-500">
                 <Download className="inline mr-1 mb-1" size={14} />
                 {comando.tamaño}
