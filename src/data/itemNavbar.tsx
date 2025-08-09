@@ -1,4 +1,4 @@
-import { GithubIcon , Code ,House} from "lucide-react";
+import {  Code ,House} from "lucide-react";
 interface PropsNavItem {
   titulo: string;
   url: string;
@@ -16,9 +16,5 @@ export const ListaItemNavbar: PropsNavItem[] = [
     url: "/ListaComandos",
     icono :<Code className="w-5 h-5 md:w-6 md:h-6"/>
   },
-  {
-    titulo: "Github",
-    url: "/ListadeIA",
-    icono :<GithubIcon className="w-5 h-5 md:w-6 md:h-6"/>
-  },
+ 
 ];
