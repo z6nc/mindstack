@@ -15,7 +15,7 @@ export const ItemNavbar = ({ url, icono }: PropsNavItem) => {
 
         <Link
             href={url}
-            className={`flex items-center space-x-2 text-black border border-gray-200 p-2 rounded-lg ${isActive ? "bg-[#00d1ff] text-white" : ""}`}
+            className={`flex items-center space-x-2 text-black border border-gray-200 p-2 rounded-lg ${isActive ? "bg-react text-white" : ""}`}
         >
             {icono}
         </Link>
