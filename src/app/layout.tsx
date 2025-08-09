@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
 import { montserrat } from "@/components/ui/fonts";
 import "../styles/globals.css";
-
+import { Navbar } from "@/components/navbar/Navbar";
+import { Footer } from "@/components/footer/footer";
 
 
 export const metadata: Metadata = {
@@ -19,8 +20,9 @@ export default function RootLayout({
       <body
         className={`${montserrat.className}  antialiased`}
       >
-        <h1>sadsa</h1>
+        <Navbar />
         {children}
+        <Footer />
       </body>
     </html>
   );
