@@ -1,36 +1,103 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚀 MindStack
 
-## Getting Started
+<div align="center">
+  <img src="public/MindStackLogo.png" alt="MindStack Logo" width="200"/>
+  <p>Tu compañero de desarrollo inteligente</p>
+</div>
 
-First, run the development server:
+## 📋 Descripción
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+MindStack es una aplicación web moderna diseñada para ayudar a los desarrolladores a gestionar y acceder rápidamente a comandos y recursos de desarrollo frecuentemente utilizados. Con una interfaz elegante y minimalista, MindStack organiza los comandos por categorías, facilitando el acceso y la gestión de tu stack tecnológico.
+
+## ✨ Características
+
+- 🎨 Interfaz moderna y responsive
+- 📦 Organización por categorías de comandos
+- 🔍 Búsqueda inteligente
+- ⚡ Rendimiento optimizado
+
+## 🛠️ Tecnologías
+
+- **Framework**: [Next.js 15.4.6](https://nextjs.org/)
+- **Lenguaje**: [TypeScript](https://www.typescriptlang.org/)
+- **Estilos**:
+  - [Tailwind CSS](https://tailwindcss.com/)
+  - [Radix UI](https://www.radix-ui.com/)
+- **Animaciones**:
+  - [Motion](https://www.framer.com/motion/)
+  - [Tailwind Animations](https://tailwindcss.com/docs/animation)
+- **Herramientas de Desarrollo**:
+  - ESLint
+  - Turbopack
+  - TypeScript
+
+## 📁 Estructura del Proyecto
+
+```
+mindstack/
+├── src/
+│   ├── app/                 # Páginas y layouts de la aplicación
+│   ├── components/          # Componentes reutilizables
+│   │   ├── footer/         # Componentes del pie de página
+│   │   ├── header/         # Componentes del encabezado
+│   │   ├── ui/             # Componentes de UI base
+│   │   └── ...
+│   ├── data/               # Datos y configuración
+│   ├── lib/                # Utilidades y helpers
+│   ├── styles/             # Estilos globales
+│   └── types/              # Definiciones de tipos
+├── public/                 # Archivos estáticos
+└── ...
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🚀 Comenzando
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+1. **Clona el repositorio**
+   ```bash
+   git clone https://github.com/z6nc/mindstack.git
+   ```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+2. **Instala las dependencias**
+   ```bash
+   npm install
+   # o
+   pnpm install
+   # o
+   yarn install
+   # o
+   bun install
+   ```
 
-## Learn More
+3. **Inicia el servidor de desarrollo**
+   ```bash
+   npm run dev
+   # o
+   pnpm dev
+   # o
+   yarn dev
+   # o
+   bun dev
+   ```
 
-To learn more about Next.js, take a look at the following resources:
+4. **Abre [http://localhost:3000](http://localhost:3000) en tu navegador**
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🎯 Objetivos del Proyecto
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- Proporcionar una interfaz intuitiva para gestionar comandos de desarrollo
+- Facilitar el acceso rápido a recursos de desarrollo frecuentes
+- Ofrecer una experiencia de usuario fluida y agradable
+- Mantener un código limpio y bien organizado
 
-## Deploy on Vercel
+## 📄 Licencia
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Este proyecto está bajo la Licencia MIT. Ver el archivo `LICENSE` para más detalles.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🤝 Contribuir
+
+Las contribuciones son siempre bienvenidas. Por favor, lee nuestras guías de contribución antes de enviar un pull request.
+
+---
+
+<div align="center">
+  Desarrollado con ❤️ por <a href="https://github.com/z6nc">z6nc</a>
+</div>
