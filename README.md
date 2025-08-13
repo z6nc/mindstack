@@ -1,13 +1,9 @@
 # 🚀 MindStack
 
-<div align="center">
-  <img src="public/MindStackLogo.png" alt="MindStack Logo" width="200"/>
-  <p>Tu compañero de desarrollo inteligente</p>
-</div>
-
-## 📋 Descripción
-
 MindStack es una aplicación web moderna diseñada para ayudar a los desarrolladores a gestionar y acceder rápidamente a comandos y recursos de desarrollo frecuentemente utilizados. Con una interfaz elegante y minimalista, MindStack organiza los comandos por categorías, facilitando el acceso y la gestión de tu stack tecnológico.
+
+<img width="1887" height="931" alt="PortadaMind" src="https://github.com/user-attachments/assets/cea48c12-cb84-4128-8f79-1534c9e744f2" />
+<img width="1884" height="913" alt="PortadaMind2" src="https://github.com/user-attachments/assets/244425cf-249d-408c-86d8-0b5ffba603ba" />
 
 ## ✨ Características
 
