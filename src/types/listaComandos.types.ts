@@ -2,6 +2,7 @@ export enum CategoriaComando {
   INSTALACION = "Instalación",
   UI_ESTILOS = "UI y Estilos",
   ANIMACIONES = "Animaciones",
+  GRAFICOS = "Graficos",
   ESTADO_DATOS = "Estado y Gestión de Datos",
   UTILIDADES = "Utilidades y Helpers",
   TESTING_HERRAMIENTAS = "Testing y Herramientas de Desarrollo",
@@ -18,5 +19,6 @@ export interface PropsListaComandos {
     pnpm?: string;
     bun?: string;
     yarn?: string;
+    deno?: string;
   };
 }
