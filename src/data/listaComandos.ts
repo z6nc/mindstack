@@ -1,6 +1,106 @@
 import { CategoriaComando, type PropsListaComandos } from "@/types/listaComandos.types";
 
 export const ListaComandos: PropsListaComandos[] = [
+  // Semana del 27 de septiembre de 2025
+  // Instalación
+  {
+    NombreComando: "Vite + React + TypeScript",
+    descripcion: "Crea un proyecto React moderno con soporte TypeScript usando Vite, recomendado por la comunidad para desarrollo rápido.",
+    tamaño: "2MB",
+    categoria: CategoriaComando.INSTALACION,
+    documentacion: "https://vitejs.dev/guide/",
+    codigo: {
+      npm: "npm create vite@latest my-app -- --template react-ts",
+      pnpm: "pnpm create vite@latest my-app -- --template react-ts",
+      bun: "bun create vite@latest my-app -- --template react-ts",
+      yarn: "yarn create vite my-app --template react-ts"
+    }
+  },
+  // UI y Estilos
+  {
+    NombreComando: "DaisyUI",
+    descripcion: "Plugin de Tailwind CSS que agrega componentes UI listos para usar y personalizables.",
+    tamaño: "1.1MB",
+    categoria: CategoriaComando.UI_ESTILOS,
+    documentacion: "https://daisyui.com/docs/install/",
+    codigo: {
+      npm: "npm install daisyui",
+      pnpm: "pnpm add daisyui",
+      bun: "bun add daisyui",
+      yarn: "yarn add daisyui"
+    }
+  },
+  // Animaciones
+  {
+    NombreComando: "React Spring",
+    descripcion: "Librería de animaciones físicas para React, ideal para transiciones fluidas y naturales.",
+    tamaño: "120KB",
+    categoria: CategoriaComando.ANIMACIONES,
+    documentacion: "https://www.react-spring.dev/docs/getting-started",
+    codigo: {
+      npm: "npm install @react-spring/web",
+      pnpm: "pnpm add @react-spring/web",
+      bun: "bun add @react-spring/web",
+      yarn: "yarn add @react-spring/web"
+    }
+  },
+  // Gráficos
+  {
+    NombreComando: "Recharts",
+    descripcion: "Librería de gráficos basada en componentes React, fácil de usar y personalizar.",
+    tamaño: "500KB",
+    categoria: CategoriaComando.GRAFICOS,
+    documentacion: "https://recharts.org/en-US/guide-installation",
+    codigo: {
+      npm: "npm install recharts",
+      pnpm: "pnpm add recharts",
+      bun: "bun add recharts",
+      yarn: "yarn add recharts"
+    }
+  },
+  // Estado y Gestión de Datos
+  {
+    NombreComando: "Jotai",
+    descripcion: "Gestor de estado minimalista y reactivo para React, basado en átomos.",
+    tamaño: "6KB",
+    categoria: CategoriaComando.ESTADO_DATOS,
+    documentacion: "https://jotai.org/docs/introduction",
+    codigo: {
+      npm: "npm install jotai",
+      pnpm: "pnpm add jotai",
+      bun: "bun add jotai",
+      yarn: "yarn add jotai"
+    }
+  },
+  // Utilidades y Helpers
+  {
+    NombreComando: "Lodash",
+    descripcion: "Colección de utilidades para manipulación de arrays, objetos y funciones en JavaScript.",
+    tamaño: "540KB",
+    categoria: CategoriaComando.UTILIDADES,
+    documentacion: "https://lodash.com/docs/4.17.15",
+    codigo: {
+      npm: "npm install lodash",
+      pnpm: "pnpm add lodash",
+      bun: "bun add lodash",
+      yarn: "yarn add lodash",
+      deno: "deno add npm:lodash"
+    }
+  },
+  // Testing y Herramientas de Desarrollo
+  {
+    NombreComando: "Vitest",
+    descripcion: "Framework de testing ultrarrápido inspirado en Jest, diseñado para proyectos Vite y compatible con React.",
+    tamaño: "1.5MB",
+    categoria: CategoriaComando.TESTING_HERRAMIENTAS,
+    documentacion: "https://vitest.dev/guide/",
+    codigo: {
+      npm: "npm install -D vitest",
+      pnpm: "pnpm add -D vitest",
+      bun: "bun add -d vitest",
+      yarn: "yarn add -D vitest"
+    }
+  },
   // Instalación y Configuración
   {
     NombreComando: "React con Vite",
