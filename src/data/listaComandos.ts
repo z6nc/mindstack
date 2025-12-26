@@ -16,6 +16,19 @@ export const ListaComandos: PropsListaComandos[] = [
       yarn: "yarn create vite my-app --template react-ts"
     }
   },
+  {
+    NombreComando: "React Router DOM",
+    descripcion: "Librería estándar para manejar el enrutamiento en aplicaciones React, permitiendo navegación declarativa entre vistas.",
+    tamaño: "26.4KB",
+    categoria: CategoriaComando.INSTALACION,
+    documentacion: "https://reactrouter.com/en/main",
+    codigo: {
+      npm: "npm install react-router-dom",
+      pnpm: "pnpm add react-router-dom",
+      bun: "bun add react-router-dom",
+      yarn: "yarn add react-router-dom"
+    }
+  },
   // UI y Estilos
   {
     NombreComando: "DaisyUI",
